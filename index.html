@@ -1,12 +1,12 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
-    <!-- <script src="dist/script.js"></script> -->
-    <!-- <link rel="stylesheet" href="../dist/input.css"> -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="dist/script.js"></script>
+    <link rel="stylesheet" href="/src/input.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="dist/output.css" />
   </head>
 
@@ -98,6 +98,18 @@
                     >Contact</a
                   >
                 </li>
+                <li class="flex items-center pl-8">
+                  <div class="flex">
+                    <span class="mr-2 text-sm text-slate-500">light</span>
+                    <input type="checkbox" class="hidden" id="dark-toggle">
+                    <label for="dark-togle">
+                      <div class="flex h-5 w-9 cursor-pointer items-center rounded-full bg-slate-500 p-1">
+                        <div class="toggle-circle h-4 w-4 rounded-full bg-white"></div>
+                      </div>
+                    </label>
+                    <span class="ml-2 text-sm text-slate-500">dark</span>
+                  </div>
+                </li>
               </ul>
             </nav>
           </div>
@@ -142,7 +154,7 @@
           <!-- Image Content -->
           <div class="w-full self-end lg:w-1/2">
             <div class="relative mt-10 lg:mt-0 lg:right-0" data-aos="fade-left">
-              <img 
+              <img
                 src="dist/img/dua.png"
                 alt="Billy Jonathan"
                 class="max-w-full mx-auto"
@@ -182,13 +194,13 @@
               Billy Jonathan
             </h2>
             <p class="font-medium text-secondary text-base max-w-xl lg:text-lg">
-              Saya lulusan SMK Pertiwi dan saat ini
-              sedang melanjutkan studi di Universitas Kuningan pada program
-              studi Teknik Informatika. Saya memiliki minat besar dalam bidang
-              web development, mobile development, serta machine learning. Saya
-              berkomitmen untuk terus belajar dan mengembangkan keterampilan
-              teknis saya, sambil berfokus pada pengembangan solusi teknologi
-              yang inovatif. dan saya berkeinginan besar ingin menjadi seorang fullstack developer.
+              Saya lulusan SMK Pertiwi dan saat ini sedang melanjutkan studi di
+              Universitas Kuningan pada program studi Teknik Informatika. Saya
+              memiliki minat besar dalam bidang web development, mobile
+              development, serta machine learning. Saya berkomitmen untuk terus
+              belajar dan mengembangkan keterampilan teknis saya, sambil
+              berfokus pada pengembangan solusi teknologi yang inovatif. dan
+              saya berkeinginan besar ingin menjadi seorang fullstack developer.
             </p>
           </div>
           <div class="w-full px-4 lg:w-1/2">
@@ -198,7 +210,9 @@
               Mari Berteman
             </h3>
             <p class="font-medium text-secondary text-base mb-6 lg:text-lg">
-              Mari menjalin hubungan yang inspiratif dan berbagi cerita seru! Bersama sosial media saya, kita bisa menciptakan koneksi yang penuh makna dan saling mendukung.
+              Mari menjalin hubungan yang inspiratif dan berbagi cerita seru!
+              Bersama sosial media saya, kita bisa menciptakan koneksi yang
+              penuh makna dan saling mendukung.
             </p>
             <div class="flex items-center">
               <!-- instagram -->
@@ -299,7 +313,10 @@
               Project Terbaru
             </h2>
             <p class="font-medium text-md text-secondary md:text-lg">
-                Selama saya saya sekolah di smk pertiwi kunignan saya juga pernah PKL di PT. Adiva Sumber Solusi yang bertempat di cirebon di Kelurahan Lemahwungkuk, Disana saya telah membuat website Operational-app dan Reservation-app.
+              Selama saya saya sekolah di smk pertiwi kunignan saya juga pernah
+              PKL di PT. Adiva Sumber Solusi yang bertempat di cirebon di
+              Kelurahan Lemahwungkuk, Disana saya telah membuat website
+              Operational-app dan Reservation-app.
             </p>
           </div>
         </div>
@@ -425,7 +442,8 @@
               Projecet Terbaru
             </h2>
             <p class="font-medium text-md text-secondary md:text-lg">
-              Berikut adalah beberapa proyek yang telah saya buat. Mulai dari web hingga aplikasi berbasis website
+              Berikut adalah beberapa proyek yang telah saya buat. Mulai dari
+              web hingga aplikasi berbasis website
             </p>
           </div>
 
@@ -444,7 +462,8 @@
                     Website Operational-app
                   </h3>
                   <p class="font-medium text-base text-secondary mb-6">
-                    Project ini adalah project yang saya buat ketika saya PKL di PT. Adiva Sumber Solusi
+                    Project ini adalah project yang saya buat ketika saya PKL di
+                    PT. Adiva Sumber Solusi
                   </p>
                   <a
                     href="#"
@@ -760,6 +779,15 @@
       </div>
     </div>
     <!-- footer end -->
+
+    <!-- back to top start  -->
+    <a
+      href="#home"
+      class="fixed bottom-4 p-4 right-4 z-[9999] hidden justify-center items-center bg-primary w-14 h-14 rounded-full hover:animate-pulse" id="to-top"
+    >
+    <span class="block w-5 h-5 border-t-2 border-l-2 rotate-45 mt-2"></span>
+    </a>
+    <!-- back to top end -->
 
     <script src="../dist/js/script.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
