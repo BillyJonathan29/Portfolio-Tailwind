@@ -34,29 +34,29 @@ window.addEventListener("click", function (e) {
 });
 
 // dark toggle
-document.addEventListener("click", function () {
-  const toggle = document.getElementById("dark-toggle");
-  const toggleCircle = document.querySelector(".toggle-circle");
+// document.addEventListener("click", function () {
+//   const toggle = document.getElementById("dark-toggle");
+//   const toggleCircle = document.querySelector(".toggle-circle");
 
-  toggle.addEventListener("change", function () {
-    if (this.checked) {
-      toggleCircle.style.transform = "translateX(16px)";
-    } else {
-      toggleCircle.style.transform = "translateX(0px)";
-    }
-  });
-});
+//   toggle.addEventListener("change", function () {
+//     if (this.checked) {
+//       toggleCircle.style.transform = "translateX(16px)";
+//     } else {
+//       toggleCircle.style.transform = "translateX(0px)";
+//     }
+//   });
+// });
 
 // // dark mode
-const darkToggle = document.querySelector("#dark-toggle");
-const html = document.querySelector("html");
+// const darkToggle = document.querySelector("#dark-toggle");
+// const html = document.querySelector("html");
 
-darkToggle.addEventListener("change", function () {
-  if (darkToggle.checked) {
-    html.classList.add("dark");
-  } else {
-    html.classList.remove("dark");
-  }
-});
+// darkToggle.addEventListener("change", function () {
+//   if (darkToggle.checked) {
+//     html.classList.add("dark");
+//   } else {
+//     html.classList.remove("dark");
+//   }
+// });
 
 
