@@ -51,10 +51,12 @@ document.addEventListener("click", function () {
 const darkToggle = document.querySelector("#dark-toggle");
 const html = document.querySelector("html");
 
-darkToggle.addEventListener("click", function () {
+darkToggle.addEventListener("change", function () {
   if (darkToggle.checked) {
     html.classList.add("dark");
   } else {
     html.classList.remove("dark");
   }
 });
+
+
